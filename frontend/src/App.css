@@ -1,0 +1,140 @@
+.nav-ul
+{
+  background-color: red(118,93,47);
+  font-weight:bold;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.nav-ul li
+{
+  display: inline-block;
+  padding:25px;
+}
+.nav-ul .ll
+{
+  color:orange;
+}
+.nav-ul li .ll:hover
+{
+ color:green
+}
+.footer
+{
+  position: absolute;
+  text-align: center;
+  background-color: rgb(118, 93, 47);
+  bottom: 0px;
+  width:100% ;
+  color: blueviolet;
+}
+.signup
+{
+  margin-left: 500px;
+  height: 500px;
+  width: 500px;
+}
+.signup input
+{
+display: block;
+margin-top: 20px;
+padding: 10px;
+width: 300px;
+}
+.signup button
+{
+  margin-top: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.singup button:hover
+{
+  background-color: blue;
+}
+.signin
+{
+  margin-right: 500px;
+  height: 500px;
+  width: 500px;
+}
+.signin input
+{
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+}
+.signin button:hover
+{
+  background-color: crimson;
+}
+
+#mm
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+ 
+.kk
+{
+  height: 200px;
+  width: 200px;
+  border-radius:10%;
+  transition: all ease 0.5s;
+}
+.kk:hover
+{
+  transform: scale(1.05);
+}
+ .btn
+ {
+  background-color: rgb(30,181,33);
+ }
+ .btn button{
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  background-color: rgba(0,0,0.5);
+  color: white;
+ }
+ .btn button:hover
+ {
+  background-color: black;
+ }
+ .card-text
+ {
+  margin-top:-5px;
+  text-align:center;
+  font-style:italic;
+ }
+ .price
+ {
+  margin-top: 10px;
+  text-align: center;
+
+ }
+
+ .Productlist
+ {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+ }
+
+ .Productlist ul li
+ {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+ .search-input
+ {
+  text-align: center;
+  margin-left: 680px;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+ 
